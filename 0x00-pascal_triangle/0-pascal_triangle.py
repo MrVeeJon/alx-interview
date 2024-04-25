@@ -15,6 +15,6 @@ def pascal_triangle(n):
             V = 1
             for j in range(1, i + 1):
                 row.append(V)
-                V = C * (i - j) // j
+                V = V * (i - j) // j
             triangle.append(row)
     return triangle
