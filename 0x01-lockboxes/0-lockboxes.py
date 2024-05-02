@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Solving the lock boxes puzzle. Take from the current box, the key to next box """
+"""Solving the lock boxes puzzle """
 
 
 def look_next_opened_box(opened_boxes):
@@ -63,4 +63,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
